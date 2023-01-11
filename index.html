@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+   
+
+    <title>CUC食堂探索</title>
+    <link rel="stylesheet" href="./bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/my.css">
+    <script src="./source/vue.global.js"> </script>
+<style>
+    html,body,.father{
+        height:100%;
+        box-sizing:border-box;
+        padding:0;
+        margin:0;
+    }
+</style>
+</head>
+
+<body>
+    <!-- <div class="container-fluid" style="width:100%;" >
+        
+     <div class="row up">
+     <div class="col-xs-1  CUC" >CUC</div>
+      <img class="col-xs-offset-9 col-xs-2" style="top: 2.5rem;" src="source/cd.png" alt="">
+    </div>
+     <div class="flow1"></div>
+     <div class="flow2"></div>
+    
+    <div class="flow4"></div>
+    
+    <div class="welcometxt" id="welcome">
+        <p>欢迎来到中传小食</p>
+       <p>这里可以查询到你口味的餐厅</p> 
+        <p>请开启我们的美食之旅吧
+    </p></div>
+    
+    <div class="hello" id="hello">
+      <p>hello</p>
+     亲爱的小白杨
+        
+    </div>
+    <button :id="start" @click="click"   class="starter">开启美食之旅</button>
+
+    </div> -->
+    
+    <!-- <div class="father" id="p1" style=" background-image: url(./source/page1.png);background-size:100% 100%;background-repeat: no-repeat;">
+        <button id="start" onclick="disappear()"   class="starter">开启美食之旅</button></div>
+    <div class="father" id="p2" style=" background-image: url(./source/page2.png);background-size:100% 100%;background-repeat: no-repeat; display: none;"></div> -->
+    <!-- <div style="position:relative;width: 100%;
+
+    height: 100%;" >
+     <div class="CUC" >CUC</div>
+     <div class="cd"> <img src="source/cd.png" alt=""></div>
+     <div class="p2f1"></div>
+     <div class="p2f2"></div>
+     <div class="p2f3"></div>
+        <img src="./source/cheese.png" class="p2cheese" alt="">
+        <p class="p2head">FOOD</p>
+        <div class="p2line"></div>
+        <div class="p2linehead"></div>
+        
+    <div class="p2q1 container  "style="
+    border-radius: 20px;
+    background: rgba(252, 247, 242, 1);
+    box-shadow: 0px 20px 60px 0px rgba(49, 69, 244, 0.1);
+    ">
+        <div class="row" style="text-align: center;line-height: 4rem;">
+            <div class="col-xs-12 p2fav"><h3>你最喜爱的主食是？</h3></div>
+            
+        </div>
+        <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+            <div class= "col-xs-offset-1 col-xs-4 p2item"> 米饭</div>
+            <div class="col-xs-offset-2 col-xs-4 p2item">面食 </div>
+        </div>
+        <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+                <div class= "col-xs-offset-1 col-xs-4 p2item"> 小吃</div>
+                <div class="col-xs-offset-2 col-xs-4 p2item"> 火锅</div>
+        </div>
+       </div>
+       <img src="./source/pizza.png" class="p2pizza" alt="">
+    <div class="p2q2 container">
+        <div class="row" style="text-align: center;line-height: 4rem;"><h3>你最喜欢哪个菜系?</h3></div>
+        <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+            <div class= "col-xs-offset-1 col-xs-4 p2item"> 鲁菜</div>
+            <div class="col-xs-offset-2 col-xs-4 p2item">川菜</div>
+        </div>
+        <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+                <div class= "col-xs-offset-1 col-xs-4 p2item"> 浙菜</div>
+                <div class="col-xs-offset-2 col-xs-4 p2item"> 徽菜</div>
+        </div> <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+            <div class= "col-xs-offset-1 col-xs-4 p2item"> 粤菜</div>
+            <div class="col-xs-offset-2 col-xs-4 p2item">苏菜 </div>
+        </div>
+        <div class="row" style="margin-top: 0.5rem;line-height: 4rem;">
+                <div class= "col-xs-offset-1 col-xs-4 p2item"> 湘菜</div>
+                <div class="col-xs-offset-2 col-xs-4 p2item">闽菜</div>
+        </div>
+
+
+
+    </div>
+ <img src="./source/cheese.png" class="p2cheese" alt="">
+ <button :id="start" @click="click"   class="starter">下一步</button> -->
+ <div style="position:relative;width: 100%;
+
+ height: 100%;" >
+  <div class="CUC" >CUC</div>
+  <div class="cd"> <img src="source/cd.png" alt=""></div>
+  <div class="p3f1"></div>
+  <div class="p3f2"></div>
+  <div class="p3f3"></div>
+     <img src="./source/cheese.png" class="p3cheese" alt="">
+     
+     <p id="food" class="p3head">{{food}}</p>
+     
+
+        
+        
+     <div class="p3line"></div>
+     <div class="p3linehead"></div>
+     
+ <div class="p3q1 container  "style="
+ border-radius: 20px;
+ background: rgba(252, 247, 242, 1);
+ box-shadow: 0px 20px 60px 0px rgba(49, 69, 244, 0.1);
+ ">
+     <div class="row" style="text-align: center;line-height: 4rem;">
+         <div class="col-xs-12 p2fav"><h3>你的预算价格？</h3></div>
+         
+     </div>
+     <div class="row" style="margin-top: 0.5rem;line-height: 3rem;">
+         <div class= "col-xs-offset-1 col-xs-10 p2item"> 0-20元</div>
+         
+     </div>
+     <div class="row" style="margin-top: 2rem;line-height: 3rem;">
+             <div class= "col-xs-offset-1 col-xs-10 p2item"> 富哥富姐无所谓</div>
+             
+     </div>
+    </div>
+    
+   <div class="p3q2 container  "style="
+   border-radius: 20px;
+   background: rgba(252, 247, 242, 1);
+   box-shadow: 0px 20px 60px 0px rgba(49, 69, 244, 0.1);
+   ">
+       <div class="row" style="text-align: center;line-height: 4rem;">
+           <div class="col-xs-12 p2fav"><h3>你的预算价格？</h3></div>
+           
+       </div>
+       <div class="row" style="margin-top: 0.5rem;line-height: 3rem;">
+           <div class= "col-xs-offset-1 col-xs-10 p2item"> 0-20元</div>
+           
+       </div>
+       <div class="row" style="margin-top: 2rem;line-height: 3rem;">
+               <div class= "col-xs-offset-1 col-xs-10 p2item"> 富哥富姐无所谓</div>
+               
+       </div>
+      </div>
+    
+
+
+
+ </div>
+<img src="./source/cheese.png" class="p3cheese" alt="">
+<button :id="start" @click="click"   class="starter">下一步</button>
+
+
+    <script>
+        function disappear(){
+                document.getElementById('start').style.display='none';
+                document.getElementById('p1').style.display='none'
+                document.getElementById('p2').style.display='block'
+        }
+    var head={
+        data(){
+           return{food:"米饭"} 
+        }
+
+
+    }
+    Vue.createApp(head).mount('#food')
+   
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+.up{
+   margin-top: 5rem;
+}
+.CUC{
+    position: absolute;
+    left: 30px;
+    top: 16px;
+    width: 76px;
+    height: 74px;
+    opacity: 1;
+     
+
+text-shadow: 3px 3px 5px 0px rgba(191, 120, 54, 0.67);
+/** 文本1 */
+font-size: 36px;
+font-weight: 900;
+letter-spacing: 0px;
+line-height: 74px;
+color: rgba(255, 130, 28, 1);
+text-align: left;
+vertical-align: top;
+}
+.cd{
+    left: 320px;
+top: 33px;
+width: 40px;
+height: 40px;
+opacity: 1;
+position: absolute;
+}
+.flow1{
+    left: -15rem;
+top: 20rem;
+width: 35rem;
+height: 25rem;
+opacity: 1;
+transform: rotate(319.6033470952006deg);
+background: linear-gradient(120.11deg, rgba(255, 136, 0, 0.6) 0%, rgba(255, 219, 179, 0.47) 100%);
+filter: blur(100px);
+position: absolute;
+}
+
+.hello{
+    left: 2rem;
+top: 20rem;
+
+
+          
+
+text-shadow: 3px 3px 5px 0px rgba(191, 120, 54, 0.67);
+/** 文本1 */
+font-size: 4rem;
+font-weight: 900;
+letter-spacing: 0px;
+line-height: 5rem;
+color: rgb(254, 178, 106);
+text-align: left;
+vertical-align: top;
+position: absolute;
+}
+.flow3{
+    left: -3rem;
+    top: 15rem;
+    width: 25rem;
+    height: 45rem;
+    opacity: 1;
+    
+    border: 2px solid rgba(255, 255, 255, 1);            
+    
+    filter: blur(4px);
+    
+position: absolute;
+}
+.flow4{
+    left: 9rem;
+top: 20rem;
+width: 30rem;
+height: 20rem;
+opacity: 0.65;
+background: rgb(245, 198, 154);
+filter: blur(100px);
+position:absolute
+}
+
+.welcometxt{
+    left: 2rem;
+    top: 40rem;
+    
+    opacity: 1;
+
+
+text-shadow: 3px 3px 5px 0px rgba(191, 120, 54, 0.67);
+/** 文本1 */
+font-size: 2rem;
+font-weight: 600;
+letter-spacing: 0px;
+line-height: 4rem;
+color: rgb(254, 178, 106);
+
+vertical-align: top;
+position: absolute;
+}
+.starter{
+    left: 60px;
+    top: 729px;
+    width: 232px;
+    height: 66px;
+    opacity: 1;
+    border-radius: 40px;
+    background: radial-gradient(50% 50%, rgba(255, 161, 54, 1) 14.62%, rgba(255, 207, 158, 0.22) 100%);
+    
+    border: 1px solid rgba(255, 255, 255, 1);            
+    position: absolute;
+    filter: blur(0px);
+    left: 102px;
+         
+
+text-shadow: 0px 0px 10px 0px rgba(247, 158, 74, 0.52);
+/** 文本1 */
+font-size: 24px;
+font-weight: 900;
+letter-spacing: 7px;
+line-height: 0px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+vertical-align: top;
+
+    }
+
+.p2f1{
+    left: 228px;
+top: 24px;
+width: 185px;
+height: 200px;
+opacity: 0.81;
+border-radius: 351px;
+background: rgba(255, 136, 0, 0.6);
+filter: blur(100px);
+position: absolute;
+}
+.p2f2{
+    left: -14px;
+top: 311px;
+width: 315px;
+height: 340px;
+opacity: 0.81;
+border-radius: 351px;
+background: rgba(255, 211, 145, 1);
+filter: blur(100px);
+position: absolute;
+}
+.p2f3{
+    left: 125px;
+    top: 626px;
+    width: 315px;
+    height: 340px;
+    opacity: 0.81;
+    border-radius: 351px;
+    background: rgba(255, 197, 145, 1);
+    filter: blur(100px);
+    position: absolute;
+}
+.p2cheese{
+    left: 303px;
+top: 590px;
+width: 137px;
+height: 108px;
+opacity: 1;
+position: absolute;
+}
+.p2head{
+    left: 46px;
+top: 116px;
+width: 307px;
+height: 36px;
+opacity: 1;
+/** 文本1 */
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0px;
+line-height: 60px;
+color: rgba(17, 34, 63, 1);
+text-align: left;
+vertical-align: middle;
+position: absolute;
+}
+.p2line{
+    left: 85px;
+top: 101px;
+width: 229.68px;
+height: 1.32px;
+opacity: 1;
+
+border: 2px solid rgba(255, 195, 0, 1);            
+
+position: absolute;
+}
+.p2linehead{
+    left: 46px;
+top: 157.26px;
+width: 47.15px;
+height: 1.18px;
+opacity: 1;
+background: rgba(252, 247, 242, 1);
+box-shadow: 0px 2px 0px 0px rgba(209, 225, 254, 1);
+position: absolute;
+}
+.p2pizza{
+    left: 315px;
+top: 168px;
+width: 52px;
+height: 52px;
+opacity: 1;
+position: absolute;
+}
+.p2q1{
+    left: 46px;
+top: 187px;
+width: 306px;
+height: 160px;
+opacity: 1;
+position: absolute;
+}
+.p2fav{
+    border-radius: 1.5rem;
+background: rgba(252, 235, 222, 1);
+}
+.p2item{
+   
+      text-align: left;
+    font-size: 1.5rem;
+    font-weight:1000;
+    opacity: 1;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    
+    border: 1px solid rgba(255, 192, 141, 1);            
+    
+    
+}
+.p2q2{
+    left: 46px;
+top: 387px;
+width: 306px;
+height: 259px;
+opacity: 1;
+box-shadow: 0px 2px 4px 0px rgba(252, 219, 194, 1);
+position: absolute;
+
+
+
+}
+.p3f1{
+    left: 228px;
+top: 24px;
+width: 185px;
+height: 200px;
+opacity: 0.81;
+border-radius: 351px;
+background: rgba(255, 136, 0, 0.6);
+filter: blur(100px);
+position: absolute;
+}
+.p3f2{
+    left: -14px;
+top: 311px;
+width: 315px;
+height: 340px;
+opacity: 0.81;
+border-radius: 351px;
+background: rgba(255, 211, 145, 1);
+filter: blur(100px);
+position: absolute;
+}
+.p3f3{
+    left: 125px;
+    top: 626px;
+    width: 315px;
+    height: 340px;
+    opacity: 0.81;
+    border-radius: 351px;
+    background: rgba(255, 197, 145, 1);
+    filter: blur(100px);
+    position: absolute;
+}
+.p3cheese{
+    left: 303px;
+top: 590px;
+width: 137px;
+height: 108px;
+opacity: 1;
+position: absolute;
+}
+.p3head{
+    left: 46px;
+top: 116px;
+width: 307px;
+height: 36px;
+opacity: 1;
+/** 文本1 */
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0px;
+line-height: 60px;
+color: rgba(17, 34, 63, 1);
+text-align: left;
+vertical-align: middle;
+position: absolute;
+}
+.p3line{
+    left: 85px;
+top: 101px;
+width: 229.68px;
+height: 1.32px;
+opacity: 1;
+
+border: 2px solid rgba(255, 195, 0, 1);            
+
+position: absolute;
+}
+.p3linehead{
+    left: 46px;
+top: 157.26px;
+width: 47.15px;
+height: 1.18px;
+opacity: 1;
+background: rgba(252, 247, 242, 1);
+box-shadow: 0px 2px 0px 0px rgba(209, 225, 254, 1);
+position: absolute;
+}
+.p3pizza{
+    left: 315px;
+top: 168px;
+width: 52px;
+height: 52px;
+opacity: 1;
+position: absolute;
+}
+.p3q1{
+    left: 46px;
+top: 187px;
+width: 306px;
+height: 160px;
+opacity: 1;
+position: absolute;
+}
+.p3fav{
+    border-radius: 1.5rem;
+background: rgba(252, 235, 222, 1);
+}
+.p3item{
+   
+      text-align: left;
+    font-size: 1.5rem;
+    font-weight:1000;
+    opacity: 1;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 1);
+    
+    border: 1px solid rgba(255, 192, 141, 1);            
+    
+    
+}
+.p3q2{
+    left: 46px;
+top: 387px;
+width: 306px;
+height: 259px;
+opacity: 1;
+box-shadow: 0px 2px 4px 0px rgba(252, 219, 194, 1);
+position: absolute;
+
+
+
+}
