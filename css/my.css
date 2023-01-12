@@ -373,3 +373,120 @@ position: absolute;
 
 
 }
+.p4tuijian{
+    left: 123px;
+    top: 117px;
+    width: 153px;
+    height: 24px;
+    opacity: 1;
+    /** 文本1 */
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    line-height: 60px;
+    color: rgba(17, 34, 63, 1);
+    text-align: left;
+    vertical-align: middle;
+position: absolute;    
+}
+.p4tuijiankuang{
+    left: 24px;
+top: 167px;
+width: 339px;
+height: 648px;
+opacity: 1;
+background: rgba(252, 252, 252, 1);
+position: absolute;
+}
+.p4tuijiankuang1{
+    left: 38px;
+top: 190px;
+width: 308px;
+height: 120px;
+opacity: 1;
+background:rgba(252, 219, 194, 1);
+border: 1px solid rgba(255, 197, 145, 0.53);            
+
+position: absolute;
+}
+.p4tjk1l{
+    left: 19px;
+top: 66px;
+width: 273px;
+height: 1px;
+opacity: 1;
+
+border: 2px solid rgba(255, 195, 0, 1);            
+
+position: absolute;
+}
+.p4tjk2{
+left: 38px;
+top: 320px;
+width: 308px;
+height: 120px;
+opacity: 1;
+background:rgba(252, 219, 194, 1);
+border: 1px solid rgba(255, 197, 145, 0.53);            
+
+position: absolute;
+}
+.p4tjk3{
+    left: 0px;
+    top: 130px;
+    width: 308px;
+    height: 120px;
+    opacity: 1;
+    background:rgba(252, 219, 194, 1);
+    border: 1px solid rgba(255, 197, 145, 0.53);            
+    
+    position: absolute;
+    }
+    .p4tjk4{
+        left: 0px;
+        top: 130px;
+        width: 308px;
+        height: 120px;
+        opacity: 1;
+        background:rgba(252, 219, 194, 1);
+        border: 1px solid rgba(255, 197, 145, 0.53);            
+        
+        position: absolute;
+        }
+.p4tjk2l{
+left: 19px;
+top: 66px;
+width: 273px;
+height: 1px;
+opacity: 1;
+
+border: 2px solid rgba(255, 195, 0, 1);            
+
+position: absolute;
+}
+.back{
+    left:30px;
+    top: 270px;
+    width: 232px;
+    height: 66px;
+    opacity: 1;
+    border-radius: 40px;
+    background: radial-gradient(50% 50%, rgba(255, 161, 54, 1) 14.62%, rgba(255, 207, 158, 0.22) 100%);
+    
+    border: 1px solid rgba(255, 255, 255, 1);            
+    position: absolute;
+    filter: blur(0px);
+   
+         
+
+text-shadow: 0px 0px 10px 0px rgba(247, 158, 74, 0.52);
+/** 文本1 */
+font-size: 24px;
+font-weight: 900;
+letter-spacing: 7px;
+line-height: 0px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+vertical-align: top;
+
+    }
